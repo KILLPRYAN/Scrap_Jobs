@@ -1,5 +1,5 @@
 .idea/
-
+../.idea
 # Created by https://www.gitignore.io/api/macos,linux,django,python,pycharm
 
 ### Django ###
@@ -207,7 +207,7 @@ ENV/
 
 # Rope project settings
 .ropeproject
-../.idea
+
 # mkdocs documentation
 /site
 

@@ -207,8 +207,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
-
+../.idea
 # mkdocs documentation
 /site
+
 
 # End of https://www.gitignore.io/api/macos,linux,django,python,pycharm

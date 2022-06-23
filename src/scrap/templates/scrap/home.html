@@ -11,9 +11,15 @@
           <div class="card-body">
 <!--            <h5 class="card-title">Special title treatment</h5>-->
             <p class="card-text">{{ obj.description }}</p>
+              <p>{{obj.city.name}} | {{obj.language.name}} |
+                  <small>{{obj.timestamp | date:"d:m:Y"}}</small></p>
 <!--            <a href="#" class="btn btn-primary">Go somewhere</a>-->
           </div>
         </div>
 
     {% endfor %}
+ <form method="get" action="">
+  {{ form.as_p }}
+  <input type="submit" value="Submit">
+</form>
 {% endblock %}
